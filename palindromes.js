@@ -1,1 +1,1 @@
-module.exports = (params1) => [params1];
+module.exports = (params1) => ([params1]);
