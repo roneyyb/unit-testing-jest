@@ -1,4 +1,4 @@
-const fizzBuzz = require("./index.js");
+const fizzBuzz = require("../index.js");
 
 describe("fixBuzz()",() => {
    it("return FizzBuzz for multiple of 3 and 5",() => {
@@ -6,7 +6,7 @@ describe("fixBuzz()",() => {
            expect(fizzBuzz(30)).toBe("FizzBuzz")
     });
 
-    it("returns number given ",() => {
+    it("returns number given",() => {
         expect(fizzBuzz(19)).toBe("19")
     })
 

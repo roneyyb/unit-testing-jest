@@ -1,4 +1,4 @@
-const palindromes = require("./palindromes.js");
+const palindromes = require("../palindromes.js");
 
 describe("palindromes()",() => {
     it("Returns a palindrome from the given statement",() => {
