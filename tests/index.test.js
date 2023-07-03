@@ -3,7 +3,7 @@ const fizzBuzz = require("../index.js");
 describe("fixBuzz()",() => {
    it("return FizzBuzz for multiple of 3 and 5",() => {
         expect(fizzBuzz(15)).toBe("FizzBuzz")
-           expect(fizzBuzz(30)).toBe("FizzBuzz")
+  expect(fizzBuzz(30)).toBe("FizzBuzz")
     });
 
     it("returns number given",() => {
