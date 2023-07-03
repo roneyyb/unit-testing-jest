@@ -1,7 +1,7 @@
 const greetings = (name) => `Hello ${name}`;
 
-describe('grettings()',() => {
+describe('grettings()', () => {
     it('says hello', () => {
-        expect(greetings("Jest")).toBe("Hello Jest")
-    })
-})
+        expect(greetings('Jest')).toBe('Hello Jest');
+    });
+});
