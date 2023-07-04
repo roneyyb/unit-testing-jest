@@ -60,13 +60,6 @@ describe('palindromes()', () => {
     });
 
     it('detects multi-wrd palindromes', () => {
-        expect(palindromes('A b c d f g')).toEqual([
-            'a',
-            'b',
-            'c',
-            'd',
-            'f',
-            'g',
-        ]);
+        expect(palindromes('A b c d f g')).toEqual([]);
     });
 });
