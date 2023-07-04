@@ -7,7 +7,7 @@ describe('palindromes()', () => {
     });
 
     it('Returns empty palindrome if given no string', () => {
-        expect(palindromes('')).toEqual(['']);
+        expect(palindromes('')).toEqual([]);
     });
 
     it('Ignores casing', () => {

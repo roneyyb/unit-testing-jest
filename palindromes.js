@@ -6,7 +6,7 @@ const isPalindrome = (str) => {
     }
     let lastIndex = str.length - 1;
     let firstIndex = 0;
-    while (firstIndex >= lastIndex && str[firstIndex] == str[lastIndex]) {
+    while (firstIndex <= lastIndex && str[firstIndex] == str[lastIndex]) {
         if (lastIndex - 1 == firstIndex || lastIndex == firstIndex) {
             return true;
         }
@@ -34,10 +34,11 @@ const stringStartPalindrome = (str) => {
     return null;
 };
 
-const checkAllPalindrome = (str) => {
+const checkAllPalindrome = (incomingStrParam) => {
+    const str = prepareStr(incomingStrParam);
     const match = [];
     if (str.length == 0) {
-        return [];
+        return match;
     }
     let startIndex = 0;
     while (startIndex < str.length) {
